@@ -1,0 +1,27 @@
+Bettina Benitez
+Assignment 8 Part 2
+
+1. CAN CRASH! there is a inifite while loop because of line 29. pointer p is not initialised either.
+
+2.  4 bytes
+
+3.  
+14
+18-20
+29-30
+
+4.
+for memory leak:
+free(p);
+
+14:
+char c[2] = {'0', '0'};
+
+18-20:
+initialise the pointer *p
+
+29-30:
+maybe take out the while loop? I mean it's not really doing anyhting.
+
+
+
